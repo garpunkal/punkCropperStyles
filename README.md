@@ -22,7 +22,7 @@ So I decided to tweak the CSS and see if I can tidy it up:
 
 I think this looks better and it gives the main image 100% of the area to use!
 
-It's fairly straightforward to achieve this, just follow these steps:
+## Manual install
 
 1 - Create the following structure in your site under app_plugins
 
