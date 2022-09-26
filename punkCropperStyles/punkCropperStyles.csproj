@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ContentTargetFolders>.</ContentTargetFolders>
+		<Product>punkCropperStyles</Product>
+		<PackageId>punkCropperStyles</PackageId>
+		<Title>punkCropperStyles</Title>
+		<Description>An app_plugin for Umbraco that tidies up the image cropper.</Description>
+		<PackageTags>umbraco-marketplace</PackageTags>
+		<RootNamespace>punkCropperStyles</RootNamespace>
+		<Authors>Gareth Wright</Authors>
+		<PackageProjectUrl>https://github.com/garpunkal/punkCropperStyles</PackageProjectUrl>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageIcon>logo.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/garpunkal/punkCropperStyles</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="App_Plugins\punkCropperStyles\**\*.*">
+			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
+		</Content>
+		<None Include="build\**\*.*">
+			<Pack>True</Pack>
+			<PackagePath>buildTransitive</PackagePath>
+		</None>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\LICENSE" Pack="true" PackagePath="" />
+		<None Include="..\logo.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="App_Plugins\punkCropperStyles\" />
+		<Folder Include="build\" />
+	</ItemGroup>
+</Project>  

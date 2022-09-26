@@ -1,0 +1,28 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <PunkCropperStylesContentFilesPath>$(MSBuildThisFileDirectory)..\App_Plugins\punkCropperStyles\**\*.*</PunkCropperStylesContentFilesPath>
+    </PropertyGroup>
+
+    <Target Name="CopyPunkCropperStylesAssets" BeforeTargets="Build">
+        <ItemGroup>
+            <PunkCropperStylesContentFiles Include="$(PunkCropperStylesContentFilesPath)" />
+        </ItemGroup>
+        <Message Text="Copying punkCropperStyles files: $(PunkCropperStylesContentFilesPath) - #@(PunkCropperStylesContentFiles->Count()) files"  Importance="high" />
+        <Copy
+            SourceFiles="@(PunkCropperStylesContentFiles)"
+            DestinationFiles="@(PunkCropperStylesContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\punkCropperStyles\%(RecursiveDir)%(Filename)%(Extension)')"
+            SkipUnchangedFiles="true" />
+
+    </Target>
+
+    <Target Name="ClearPunkCropperStylesAssets" BeforeTargets="Clean">
+        <ItemGroup>
+            <PunkCropperStylesDir Include="$(MSBuildProjectDirectory)\App_Plugins\punkCropperStyles\" />
+        </ItemGroup>
+        <Message Text="Clear old punkCropperStyles data"  Importance="high" />
+        <RemoveDir Directories="@(PunkCropperStylesDir)"  />
+    </Target>
+
+</Project>
+ 

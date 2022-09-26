@@ -1,0 +1,24 @@
+.imagecropper {
+    display: block;
+}
+
+    .imagecropper .umb-sortable-thumbnails {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 100%;
+        overflow: auto;
+        max-height: 300px;
+    }
+
+        .imagecropper .umb-sortable-thumbnails li {
+            display: flex;
+            flex-wrap: wrap;
+            width: 10%;
+            align-items: flex-start;
+        }
+
+            .imagecropper .umb-sortable-thumbnails li .crop-information {
+                align-items: flex-start;
+            }
