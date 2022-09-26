@@ -1,4 +1,4 @@
-Umbraco - Sort those crops out!
+## Umbraco - Sort those crops out!
 
 I've always though that the image cropper in Umbraco, looked a little messy and the view for the main image wasn't large enough.
 
