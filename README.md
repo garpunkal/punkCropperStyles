@@ -1,5 +1,17 @@
 ## Umbraco - Sort those crops out!
 
+## Nuget
+
+`Install-Package punkCropperStyles`
+
+https://www.nuget.org/packages/punkCropperStyles/
+
+## Compatibility
+
+- Umbraco 10
+
+## Summary 
+
 I've always though that the image cropper in Umbraco, looked a little messy and the view for the main image wasn't large enough.
 
 ![Default Cropper](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/si4o2973m96j1wuu0si7.jpeg)
