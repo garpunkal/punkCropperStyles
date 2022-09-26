@@ -1,5 +1,5 @@
 {
   "css": [
-    "~/app_plugins/tweaks/cropper.css"
+    "~/app_plugins/punkCropperStyles/cropper.css"
   ]
 }
