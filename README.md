@@ -8,7 +8,7 @@ https://www.nuget.org/packages/punkCropperStyles/
 
 ## Compatibility
 
-- Umbraco 10
+- Umbraco 10+
 
 ## Summary 
 
