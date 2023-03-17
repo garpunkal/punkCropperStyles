@@ -1,7 +1,7 @@
 # punkCropperStyles
 
 [![NuGet release](https://img.shields.io/nuget/v/punkCropperStyles.svg)](https://www.nuget.org/packages/punkCropperStyles/)
-
+  
 ## Nuget
 
 `Install-Package punkCropperStyles`
