@@ -1,4 +1,6 @@
-# Umbraco - Sort those crops out!
+# punkCropperStyles
+
+[![NuGet release](https://img.shields.io/nuget/v/punkCropperStyles.svg)](https://www.nuget.org/packages/punkCropperStyles/)
 
 ## Nuget
 

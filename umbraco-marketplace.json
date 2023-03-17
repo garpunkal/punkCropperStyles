@@ -1,0 +1,22 @@
+{
+  "Title": "punkCropperStyles",
+  "Description": "A package that tidies up the cropper styles.",
+  "Category": "Editor Tools",
+  "Tags": [ "Block List" ],
+  "LicenseTypes": [ "Free" ],
+  "PackageType": "Package", 
+  "AuthorDetails": {
+    "Name": "Gareth Wright",
+    "Url": "https://garpunkal.dev",
+    "ImageUrl": "https://github.com/garpunkal.png",
+    "SyncContributorsFromRepository": true
+  },
+  "DocumentationUrl": "https://github.com/garpunkal/punkCropperStyles",
+  "IssueTrackerUrl": "https://github.com/garpunkal/punkCropperStyles/issues",
+  "Screenshots": [
+    {
+      "ImageUrl": "https://raw.github.com/garpunkal/punkCropperStyles/main/image-cropper-unstyled.jpg",
+      "Caption": "Improved Cropper"
+    }    
+  ]
+}
